@@ -2,22 +2,28 @@ import java.util.Scanner;
 
 public class Main {
     public static void cToF(int temp){
-
+        int newTemp = 32 + (temp * 5/9);
+        System.out.println("Temperature: " + newTemp + "°F");
     }
     public static void cToK(int temp){
-
+        int newTemp = temp + 273;
+        System.out.println("Temperature: " + newTemp + "K");
     }
     public static void fToC(int temp){
-
+        int newTemp = (temp - 32) / 9/5;
+        System.out.println("Temperature: " + newTemp + "°C");
     }
     public static void fToK(int temp){
-
+        int newTemp = ((temp - 32) / 9/5) + 273;
+        System.out.println("Temperature: " + newTemp + "K");
     }
     public static void kToC(int temp){
-
+        int newTemp = temp - 273;
+        System.out.println("Temperature: " + newTemp + "°C");
     }
     public static void kToF(int temp){
-
+        int newTemp = (temp - 273 - 32) / 9/5;
+        System.out.println("Temperature: " + newTemp + "°F");
     }
 
     public static void main(String[] args) {
