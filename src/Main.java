@@ -27,11 +27,11 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.print("Unit to convert from (c for celsius, f for fahrenheit and k for kelvins): ");
+        System.out.print("Unit to convert from (C for celsius, F for fahrenheit and K for kelvins): ");
         Scanner unit1 = new Scanner(System.in);
         String ogUnit = unit1.nextLine();
 
-        System.out.print("Unit to convert from (c for celsius, f for fahrenheit and k for kelvins): ");
+        System.out.print("Unit to convert to (C for celsius, F for fahrenheit and K for kelvins): ");
         Scanner unit2 = new Scanner(System.in);
         String newUnit = unit2.nextLine();
 

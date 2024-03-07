@@ -12,4 +12,8 @@ This is small application to convert temperatures from one unit to another.
 3. You can now run the app using command ```java Main```.
 
 ## Changelog
-V1.0 - Everything works.
+
+#### V1.0.1
+Corrected some spelling mistakes.
+#### V1.0
+First version, may have some spelling mistakes.
