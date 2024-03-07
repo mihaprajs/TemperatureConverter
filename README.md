@@ -13,6 +13,8 @@ This is small application to convert temperatures from one unit to another.
 
 ## Changelog
 
+#### V1.1
+Update to the way of asking user for input.
 #### V1.0.1
 Corrected some spelling mistakes.
 #### V1.0

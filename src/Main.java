@@ -27,6 +27,19 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        String prompt = """
+                Hello user!
+                
+                You are using a temperature converter. Please read the this prompt before proceeding.
+                
+                This application will be asking you to tell it the units.
+                - Use C for Celsius,
+                - Use F for Fahrenheit,
+                - Use K for Kelvins.
+                
+                Thank you for using this program :)
+                """;
+        System.out.println(prompt);
         System.out.print("Unit to convert from (C for celsius, F for fahrenheit and K for kelvins): ");
         Scanner unit1 = new Scanner(System.in);
         String ogUnit = unit1.nextLine();
