@@ -2,7 +2,7 @@
 This is small application to convert temperatures from one unit to another.
 
 ## How to use it?
-### Requrements:
+### Requirements:
 - Java 21 or later must be installed.
 - You have to have access to command-line (Terminal, Command Prompt, Konsole,...)
 
@@ -13,6 +13,8 @@ This is small application to convert temperatures from one unit to another.
 
 ## Changelog
 
+#### V1.2
+Refactored code and correcting some spelling mistakes in README.md 
 #### V1.1
 Update to the way of asking user for input.
 #### V1.0.1
